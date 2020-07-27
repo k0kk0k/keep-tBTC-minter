@@ -7,7 +7,7 @@ import sendBtc from "./action/sendBtc.js";
 import log from "./lib/log.js";
 
 let args = process.argv.slice(2)
-if (process.argv[0].includes("run.js")) {
+if (process.argv[0].includes("index.js")) {
     args = process.argv.slice(1) // invoked directly, no node
 }
 

@@ -1,0 +1,40 @@
+{
+  "name": "keep-tbtc-minter",
+  "version": "1.0.0",
+  "description": "Automatic mint tBTC management tool, and record the status of mint through MySQL. In addition to supporting tBTC's deposit, resume, and redeem, it also supports BTC transfer.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvaLuo-code/keep-tBTC-minter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AvaLuo-code/keep-tBTC-minter/issues"
+  },
+  "homepage": "https://github.com/AvaLuo-code/keep-tBTC-minter#readme",
+  "peerDependencies": {
+    "web3": "^1.2.11",
+    "web3-provider-engine": "^15.0.12"
+  },
+  "dependencies": {
+    "@0x/subproviders": "^6.1.1",
+    "@keep-network/tbtc.js": "0.17.0-rc.0",
+    "bigi": "1.4.2",
+    "bitcoinjs-lib": "5.1.10",
+    "blockcypher": "0.3.0",
+    "bn.js": "5.1.2",
+    "console-stamp": "0.2.9",
+    "dotenv": "8.2.0",
+    "moment": "2.27.0",
+    "mysql2": "2.1.0",
+    "node-fetch": "2.6.0",
+    "strip-hex-prefix": "1.0.0"
+  }
+}
